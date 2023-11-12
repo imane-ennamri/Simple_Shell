@@ -9,5 +9,7 @@
 #include <string.h>
 #include <sys/stat.h>
 
+int main(int ni, char **argv);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 
 #endif
