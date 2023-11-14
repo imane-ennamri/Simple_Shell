@@ -63,7 +63,6 @@ int main(int ni, char **argv)
 
 	printf("%s", lineptr);
 
-	free(lineptr);
 	}
 
 	return (0);
